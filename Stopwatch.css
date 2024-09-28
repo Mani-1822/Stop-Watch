@@ -1,0 +1,42 @@
+body {
+    background-color: #e6e6e6;
+}
+
+.container {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.stopwatch {
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    padding: 10px;
+}
+
+.time {
+    font-size: 3em;
+    color: #fff;
+}
+
+.start, .stop, .reset {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.start:hover, .stop:hover, .reset:hover {
+    background-color: #0069d9;
+}
